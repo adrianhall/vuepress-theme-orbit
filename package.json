@@ -2,7 +2,6 @@
   "name": "vuepress-theme-orbit",
   "version": "1.0.0",
   "description": "A Resume template using Vuepress - concentrate on content, not style!",
-  "main": "index.js",
   "keywords": [
     "vuepress",
     "vuepress-theme",
@@ -11,8 +10,20 @@
     "resume",
     "resume-theme"
   ],
-  "author": "Adrian Hall <photoadrian@outlook.com>",
+  "homepage": "https://github.com/adrianhall/vuepress-theme-orbit#readme",
+  "bugs": {
+    "url": "https://github.com/adrianhall/vuepress-theme-orbit/issues"
+  },
   "license": "MIT",
+  "author": "Adrian Hall <photoadrian@outlook.com>",
+  "contributors": [
+    "Xiaoying Riley <xiaoying@3rdwavemedia.com (http://themes.3rdwavemedia.com)"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianhall/vuepress-theme-orbit.git"
+  },
   "scripts": {
     "start": "vuepress dev example",
     "build": "vuepress build example"
