@@ -1,0 +1,26 @@
+{
+  "name": "vuepress-theme-orbit",
+  "version": "1.0.0",
+  "description": "A Resume template using Vuepress - concentrate on content, not style!",
+  "main": "index.js",
+  "keywords": [
+    "vuepress",
+    "vuepress-theme",
+    "xriley",
+    "3rdwave",
+    "resume",
+    "resume-theme"
+  ],
+  "author": "Adrian Hall <photoadrian@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "vuepress dev example",
+    "build": "vuepress build example"
+  },
+  "dependencies": {
+    "vuepress": "^1.5.0"
+  },
+  "devDependencies": {
+    "vuepress-plugin-seo": "^0.1.3"
+  }
+}
