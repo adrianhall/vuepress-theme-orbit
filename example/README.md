@@ -66,7 +66,15 @@ Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit
 
 You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-<!-- Need to do stuff with this list -->
+[**CoderPro**](https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/) - A responsive website template designed to help developers launch their software projects.
+
+[**Launch**](https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/) - A responsive website template designed to help startups promote their products or services.
+
+[**DevCard**](https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/) - A portfolio website template designed for software developers.
+
+[**NovaPro**](https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/) - A responsive Bootstrap theme designed to help app developers promote their mobile apps.
+
+[**DevStudio**](http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/) - A responsive website template designed to help web developers/designers market their services.
 
 <Heading icon="rocket" title="Skills & Proficiency"></Heading>
 
