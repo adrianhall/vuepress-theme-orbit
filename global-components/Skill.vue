@@ -12,6 +12,29 @@
   </div>
 </template>
 
+<style lang="stylus">
+.skillset
+  .item
+    margin-bottom: 15px
+    overflow: hidden
+
+  .level-title
+    font-size: 14px
+    margin-top: 0
+    margin-bottom: 12px
+
+  .level-bar
+    height: 12px
+    border-radius: 2px
+
+@media (min-width: 992px)
+  .skillset .level-title
+    display: inline-block
+    float: left
+    width: 30%
+    margin-bottom: 0
+</style>
+
 <script>
 export default {
   name: 'Skill',

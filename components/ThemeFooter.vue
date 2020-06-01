@@ -12,6 +12,19 @@
   </footer>
 </template>
 
+<style lang="stylus">
+.footer
+  padding: 30px
+  padding-top: 60px
+  
+  .copyright
+    line-height: 1.6
+    font-size: 13px
+
+  .fa-heart
+    color: $heart
+</style>
+
 <script>
 export default {
   name: "ThemeFooter"
