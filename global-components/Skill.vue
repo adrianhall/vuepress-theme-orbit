@@ -24,15 +24,16 @@
     margin-bottom: 12px
 
   .level-bar
-    height: 12px
+    background: $smoky-white
     border-radius: 2px
+    height: 12px
 
 @media (min-width: 992px)
   .skillset .level-title
     display: inline-block
     float: left
-    width: 30%
     margin-bottom: 0
+    width: 30%
 </style>
 
 <script>

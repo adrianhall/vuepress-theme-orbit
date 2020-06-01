@@ -1,5 +1,5 @@
 <template>
-<div class="wrapper">
+<div :class="scheme">
   <Sidebar :author="$frontmatter.author" />
   <MainWrapper>
     <Content/>
@@ -20,6 +20,19 @@ export default {
     MainWrapper,
     Sidebar,
     ThemeFooter
+  },
+
+  computed: {
+    scheme () {
+      console.log('this = ', this);
+      if (this.$frontmatter.colorScheme) {
+        return `wrapper scheme-${this.$frontmatter.colorScheme}`;
+      } else if (this.$themeConfig.colorScheme) {
+        return `wrapper scheme-${this.$themeConfig.colorScheme}`;
+      } else {
+        return 'wrapper';
+      }
+    }
   }
 };
 </script>

@@ -18,8 +18,9 @@
   padding-top: 60px
   
   .copyright
-    line-height: 1.6
+    color: $text-color-secondary
     font-size: 13px
+    line-height: 1.6
 
   .fa-heart
     color: $heart

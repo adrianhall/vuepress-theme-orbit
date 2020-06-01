@@ -18,12 +18,29 @@ Create a `.vuepress/config.js` file.  Here is a minimal one:
 module.exports = {
   title: 'Alan Doe | Resume',
   description: 'The resume for Alan Doe',
-  theme: 'orbit'
+  theme: 'orbit',
+  themeConfig: {
+    colorScheme: 'keppel'
+  }
 };
 ```
 
 Then create a resume in `README.md`.  This involves two parts: The front matter, which must include an "author" section that describes the sidebar contents, and some Markdown content.
 You can find an example [in the example directory](example/README.md).
+
+## Color Schemes
+
+There are six color schemes:
+
+* `pacificblue`
+* `keppel`
+* `seagreen`
+* `rose`
+* `saffron`
+* `cadet`
+
+You can specify the color scheme in the theme configuration (as above) or in the front matter of your resume (allowing you to produce multiple resumes with different color schemes).  You can 
+also add your own color scheme by adding a new palette in your style overrides.  See `styles/colors.styl` for examples.
 
 ## Sidebar
 
